@@ -9,7 +9,8 @@ This is a temporary script file.
 import pandas as pd
 import os
 
-# path of the file containing the data. the files to read must be csv files.
+# path of the parent folder containing sibling folders with doreco complete csv's of the languages and lists with vowels (with the head vowels) in SAMPA.
+# It must be a parent folder because the code runs in subfolders and reads files contained in the subfolders.
 data = '/Users/alejandracamelocruz/Desktop/Tesis/data'
 
 #-------------------------------- functions--------------------------------
